@@ -1,0 +1,100 @@
+.Sname{
+    color:rgb(255, 255, 255);
+    font-size: 17pt;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.actPad{
+    padding-left: 10px;
+}
+
+.menuItem{
+    color: white;
+    font-size: 12pt;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: left ;
+    padding-left: 10px;
+    height: 50px;
+    width: 100%;
+    transition: all 100ms ease;
+}
+
+.menuItem:hover{
+    cursor: pointer;   
+}
+
+.active{
+    background: rgb(158, 43, 43);
+    
+}
+
+.active::before{
+    background: rgb(0, 0, 0);
+    width: 50px;
+    margin-left:0px ;
+}
+
+.Iheading{
+    padding-left: 20px;
+}
+
+.Actions{
+    
+    box-sizing: border-box;
+    height: 100vh;
+    margin-left: 10px;
+    padding-top: 10px;   
+}
+
+.itemlist{
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.Sidebar{
+    width: 12rem;
+    border-right: 0.5px solid rgb(56, 56, 57);
+    
+    
+}
+
+.Profile {
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+  }
+  
+  .profileNamePermission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profileName {
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+  }
+  
+  .profilePermission {
+    font-size: 14px;
+    margin-top: 1px;
+    margin-left: 10px;
+    color: aliceblue;
+  }

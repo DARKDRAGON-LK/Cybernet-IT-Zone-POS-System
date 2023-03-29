@@ -1,0 +1,11 @@
+.Datetime{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.date{
+    padding-left: 20px;
+}

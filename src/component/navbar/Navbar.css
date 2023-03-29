@@ -1,0 +1,36 @@
+.bg{
+    background: rgb(255, 255, 255,0.15);
+    height: 4rem;
+    margin: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+
+}
+
+.dateTime{
+    justify-content: end;
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+.date{
+    margin-right: 10px;
+}
+
+.shopName{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 18pt;
+}
+
+.shopIcon{
+    padding-right:20px ;
+}

@@ -1,0 +1,41 @@
+.itemimage{
+    
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+}
+
+.itemdetails{
+    background-color: rgb(205, 146, 74);
+    width: 100%;
+    height: 180px;
+    margin-top: 5px;
+    color: black;
+    font-weight: bold;
+    
+
+}
+
+.frame{
+    
+    margin: 2%;
+}
+
+.close{
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: end;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer{
+    width: 500px;
+    height: 450px;
+    background-color: white;
+}

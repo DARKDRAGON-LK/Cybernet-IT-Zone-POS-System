@@ -1,0 +1,177 @@
+.mainframesale{
+    display: grid;
+    grid-template-rows: 4rem auto;
+    width: 100%;
+}
+
+.frame2sale{
+    display: grid;
+    grid-template-columns: 12rem auto 25rem;
+    width: 100%;
+    
+}
+
+.salesarea{
+    display: grid;
+    grid-template-rows: 70% auto;
+    width: 100%;
+    background-color: rgb(43, 86, 214);
+}
+
+.itemSearch{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.searcharea{
+    width: 900px;
+    height: 60%;
+    border-radius: 50px;
+    padding: 10px;
+    outline: none;
+
+}
+
+.searchbaarea{
+    width: 50px;
+    height: 60%;
+    border-radius: 50px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.searchicon{
+    background-color: rgb(203, 198, 198);
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.salesarea1{
+    display: grid;
+    grid-template-rows: 70% auto;
+    width: 100%;
+    height: 92%;
+}
+
+.color{
+    background-color: aqua;
+    height: 40px;
+    width: 350PX;
+    margin-left: 10PX;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.itemsection{
+    width: 100%;
+    height: 95%;
+    overflow: auto;
+    padding: 20px;
+}
+
+.amount{
+    width: 100%;
+    height: 20%;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+
+.discount{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(64, 255, 47);
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+.pay{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(19, 117, 245);
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+
+.paybuttton{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(47, 151, 255);
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.paybutttontext{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left:10px;
+    cursor: pointer;
+}
+
+.paybuttton:hover{
+    background-color: rgb(18, 79, 79);
+}
+
+.calculation{
+   
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(25, 9, 113,0.5);
+    border: 1px solid black;
+    
+}
+
+.payarea{
+    background-color: aquamarine;
+    
+}
+
+.searchcontainer{
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 70px;
+    gap: 10px;
+    padding: 20px;
+  }
+
+.card{
+    width: 600px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding:50px;
+}

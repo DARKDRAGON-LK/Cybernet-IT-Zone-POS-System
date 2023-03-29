@@ -1,0 +1,131 @@
+.body {
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #777;
+    background-color: white;
+}
+
+.body h1 {
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #000;
+    background-color: white;
+}
+
+.body h3 {
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+    background-color: white;
+}
+
+.body a {
+    color: #06f;
+}
+
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+    background-color: white;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.invoice-box table td {
+    padding: 5px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.invoice-box table tr td:nth-child(4) {
+    text-align: right;
+    background-color: white;
+}
+
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+    width: 70%;
+    background-color: white;
+}
+
+.invoice-box table tr.top table td.title {
+    font-size: 20px;
+    line-height: 20px;
+    color: #333;
+    background-color: white;
+}
+
+.invoice-box table tr.information table td {
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: white;
+}
+.invoice-box table tr.information table td.rightone {
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: end;
+    background-color: white;
+}
+.invoice-box table tr.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    background-color: white;
+}
+
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.invoice-box table tr.item td {
+    border-bottom: 1px solid #eee;
+    background-color: white;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+    background-color: white;
+}
+
+.invoice-box table tr.total td:nth-child(4) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+    background-color: white;
+}
+.invoice-box table tr.total td:nth-child(3) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background-color: white;
+    }
+
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background-color: white;
+    }
+}

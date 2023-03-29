@@ -1,0 +1,22 @@
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.slider{
+    width:950px;
+}
+
+.imagearea{
+    background-color: azure;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.itemdata{
+    padding-left: 10px;
+}
