@@ -6,7 +6,7 @@ const bcrypt = require("bcrypt");
 
 const app = express();
 const port = 5000;
-const saltRounds = 10;
+const saltRounds = Your Salt Round Number;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -16,10 +16,10 @@ let connection;
 
 function handleDisconnect() {
   connection = mysql.createConnection({
-    host: '139.59.65.88',
-    user: 'PosSystem',
-    password: 'Lawan@1231',
-    database: 'CybernetITZonePOSSystem'
+    host: 'Your MySQL Server IP',
+    user: 'Your User',
+    password: 'Your Password
+    database: 'Your Database Name'
   });
   connection.connect((err) => {
     if (err) {
